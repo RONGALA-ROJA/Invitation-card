@@ -1,0 +1,19 @@
+# Create a new folder
+mkdir my-project
+cd my-project
+
+# Initialize Git
+git init
+
+# Create a file
+echo "<h1>Hello, world!</h1>" > index.html
+
+# Add and commit it
+git add index.html
+git commit -m "Add index.html"
+
+# Link to your GitHub repository
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+# Push the file to GitHub
+git push -u origin main
